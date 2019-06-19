@@ -1,0 +1,10 @@
+- hosts: all
+  vars_files:
+       - copyvar.yml
+  tasks:
+    - copy:
+        src: "{{ srcfile }}"
+        dest: "{{ destfile }}"
+        owner: "{{ own }}"
+        group: "{{ grp }}"
+        mode: "{{ mod }}"

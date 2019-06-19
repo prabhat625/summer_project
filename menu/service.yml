@@ -1,0 +1,8 @@
+- hosts: all
+  vars_files:
+       - servicevar.yml
+  tasks:
+     - service:
+            name: "{{ name }}"
+            state: started
+            enabled: yes

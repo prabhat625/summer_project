@@ -1,0 +1,4 @@
+dirpath: "/root/Desktop/diti"
+own: "root"
+grp: "root"
+mod: "0755"

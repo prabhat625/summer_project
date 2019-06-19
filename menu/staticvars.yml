@@ -1,0 +1,6 @@
+conname: "disti"
+ifnam: "enp0s3"
+type: "ethernet"
+dns: "192.168.43.1"
+ip: "192.168.43.88/24"
+gw: "192.168.43.1"

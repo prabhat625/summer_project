@@ -1,0 +1,3 @@
+filesrc: "/root"
+filedest: "/root/Desktop/disti.tar.gz"
+form: "gz"
